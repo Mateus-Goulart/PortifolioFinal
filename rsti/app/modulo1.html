@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Tags Obrigatorias e Titulos -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> SENAC RS - RSTI </title>
+
+  <!-- Favicons -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- CSS Custumizado -->
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/principal_modulos.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d030f93cec.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#"> <i class="fa-solid fa-microchip"></i> SENAC RS - RSTI </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="principal.html">Home <span class="sr-only">(Página atual)</span></a>
+          <a class="nav-item nav-link active" href="suporte.html"> Suporte </a>
+        </div>
+
+        <div class="navbar-nav ml-auto">
+          <div class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a><i class="fa-solid fa-user"></i> <br> Aluno </a>
+          </div>
+
+          <div class="dropdown-menu dropdown-menu-right bg-primary" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item text-white bg-primary" href="#">Perfil</a>
+            <a class="dropdown-item text-white bg-primary" href="login.html">Sair</a>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="row">
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 bg-silver mt-5">
+        <h2 class="text-primary text-center"> Menu de Controle </h2>
+        <hr>
+        <select name="trilha" class="form-control">
+          <option value="1"> Trilha 1 - Desenvolvimento Front End </option>
+          <option disabled> Trilha 2 - Desenvolvimento Back End com Java (Indisponivel) </option>
+          <option disabled> Trilha 3 - Desenvolvimento Desktop com Java (Indisponivel) </option>
+          <option disabled> Trilha 4 - Desenvolvimento Python (Indisponivel) </option>
+        </select>
+        <hr>
+        <div class="card">
+          <div class="card-body mt-5">
+            <ul class="text-primary" id="menu">
+              <li><a href="modulo1.html"> Modulo 1 - Lógica de Programação </a></li>
+              <li><a href="modulo2.html"> Modulo 2 - HTML 5 </a></li>
+              <li><a href="modulo3.html"> Modulo 3 - CSS 3</a></li>
+              <li><a href="modulo4.html"> Modulo 4 - Responsividade </a></li>
+              <li><a href="modulo5.html"> Modulo 5 - JavaScript </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 mt-5 bg-light">
+        <div class="container">        
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 class="text-center text-primary"> Lógica de Programação</h2>
+            <hr class="bg-primary">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5 ">
+            <div class="card border-card">
+              <div class="card-header text-white bg-primary text-center">
+                <h2> Introdução a Algoritimo </h2>
+              </div>
+              <div class="card-body video">
+                <iframe class="w-100 h-100" src="https://www.youtube.com/embed/8mei6uVttho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer aula">
+                <p> Introdução a Algoritimo, conceito, explicação e exemplos.
+                  <br>
+                  <br> <b>Créditos:</b>  Gustavo Guanabara
+                  <br> <b>Canal: </b> <a style="text-decoration:none" href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" class="text-primary"> Curso em Video </a>
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+            <div class="card border-card">
+              <div class="card-header text-white bg-primary text-center">
+                <h2> Primeiro Algoritimo </h2>
+              </div>
+              <div class="card-body video">
+                <iframe class="w-100 h-100" src="https://www.youtube.com/embed/M2Af7gkbbro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer aula">
+                <p> A estruturação e criação dos primeiros algoritiomos. Por Questões didaticas o Professor Guanabara utiliza o portugol, mas seu uso não é obrigatório, sendo a decisão cabe ao professor 
+                  <br> <b>Créditos:</b>  Gustavo Guanabara
+                  <br> <b>Canal: </b> <a style="text-decoration:none" href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" class="text-primary"> Curso em Video </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+            <div class="card border-card">
+              <div class="card-header text-white bg-primary text-center">
+                <h2> Introdução a uma linguagem </h2>
+              </div>
+              <div class="card-body video">
+                <iframe class="w-100 h-100" src="https://www.youtube.com/embed/PmefpISZ7Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer aula">
+                <p>  Conceituando o que é uma linguagem de programação e como ela funciona.
+                  <br>
+                  <br> <b>Créditos:</b>  Harlley Oliveira
+                  <br> <b>Canal: </b> <a style="text-decoration:none" href="https://www.youtube.com/c/Playcode" target="_blank" class="text-primary"> Harlley Oliveira </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+            <div class="card border-card">
+              <div class="card-header text-white bg-primary text-center">
+                <h2> Introdução Python </h2>
+              </div>
+              <div class="card-body video">
+                <iframe class="w-100 h-100" src="https://www.youtube.com/embed/S9uPNppGsGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer aula">
+                <p> Com a linguagem escolhida, começamos com a base dela e vamos nos aprofundar.
+                  <br>
+                  <br> <b>Créditos:</b>  Gustavo Guanabara
+                  <br> <b>Canal: </b> <a style="text-decoration:none" href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" class="text-primary"> Curso em Video </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+            <div class="card border-card">
+              <div class="card-header text-white bg-primary text-center">
+                <h2> Classes e Métodos </h2>
+              </div>
+              <div class="card-body video">
+                <iframe class="w-100 h-100" src="https://www.youtube.com/embed/j6B8shHXzks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer aula">
+                <p> Apresentando as classes e métodos, como crialos e utiliza-los.
+                  <br>
+                  <br> <b>Créditos: </b>  Dev Aprender
+                  <br> <b>Canal: </b> <a style="text-decoration:none" href="https://www.youtube.com/c/DevAprender" target="_blank" class="text-primary"> Dev Aprender </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+            <div class="card border-card">
+              <div class="card-header text-white bg-primary text-center">
+                <h2> Orientação Objeto </h2>
+              </div>
+              <div class="card-body video">
+                <iframe class="w-100 h-100" src="https://www.youtube.com/embed/yZ83sZUvLVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-footer aula">
+                <p>  Aqui você aprendera a programar orientado a um "objeto", vamos aprender a como criar e como usar este recurso.
+                  <br>
+                  <br> <b>Créditos:</b>  ByLearn
+                  <br> <b>Canal: </b> <a style="text-decoration:none" href="https://www.youtube.com/c/ByLearn" target="_blank" class="text-primary"> ByLearn </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+       </div>
+    </div>
+  </main>
+
+  <footer class="bg-primary text-light text-center mt-3">
+    <p> Desenvolvido por Mateus G.P. - &copy; 2022 - RSTI </p>
+  </footer>
+
+  <!-- JavaScript Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

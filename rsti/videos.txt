@@ -1,0 +1,38 @@
+﻿<-- Videos - Site - Bootstrap -->
+
+<-- Lógica de Programação -->
+
+
+<-- HTML5 -->
++ Curso em Video -> Gustavo Guanabará -> Como a Internet funciona? - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=nlO5hySqJFA
++ Curso em Video -> Gustavo Guanabará -> O que é domínio e hospedagem? - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=RFHSt1PCy0k
++ Curso em Video -> Gustavo Guanabará -> A diferença entre HTML, CSS e JavaScript - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=B4FU3NFRTDw
++ Curso em Video -> Gustavo Guanabará -> Seu primeiro código HTML - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=E6CdIawPTh
++ Curso em Video -> Gustavo Guanabará -> Parágrafos e Quebras - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=f6NTJdtEFOc
++ Curso em Video -> Gustavo Guanabará -> Semântica na HTML5 é importante - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=HaSgt1hK2Fs
+
+<-- CSS3 -->
++ Curso em Video -> Gustavo Guanabará -> Estilos CSS inline - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=byqhpuVpvEI
++ Curso em Video -> Gustavo Guanabará -> Paleta de cores - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=KC8dm9OvIOU
++ Curso em Video -> Gustavo Guanabará -> Famílias de fonte com CSS - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=dMp1UFD8_lE
++ Curso em Video -> Gustavo Guanabará -> Usando fontes externas baixadas - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=3YIXnxA1kqg
++ Curso em Video -> Gustavo Guanabará -> Usando o id com CSS - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=TZuVpJmSNSE
++ Curso em Video -> Gustavo Guanabará -> Rodapé, conteúdo periférico e links - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=pdomr7thueI
+
+<-- Responsividade -->
++ Curso em Video -> Gustavo Guanabará -> Tornando um vídeo responsivo - @Curso em Vídeo HTML5 e CSS3 -> https://www.youtube.com/watch?v=u9NE0jInb_c
++ LayerComp -> Grid do Bootstrap - Tutorial de Como Criar Layouts Responsivos -> https://www.youtube.com/watch?v=VUAReozpoDo
++ Miguel Maia -> Bootstrap e responsividade para iniciantes (HTML + CSS) -> https://www.youtube.com/watch?v=8sa0iCnCEk0
++ Programador Br - Tutoriais -> Qual a diferença entre Bootstrap e CSS puro? -> https://www.youtube.com/watch?v=eTsbIb72NqQ
++ Programador BR -> Usar Bootstrap ou criar tudo na Mão? Qual vale mais a pena? -> https://www.youtube.com/watch?v=FDyoaiWMAxA
++ Drew Ryan -> Responsive Bootstrap Website Start To Finish with Bootstrap 4, HTML5 & CSS3 -> https://www.youtube.com/watch?v=9cKsq14Kfsw
+
+
+<-- JavaScript -->
+
++ Curso em Video -> Gustavo Guanabará -> O que o JavaScript é capaz de fazer? - Curso JavaScript #01 --> https://www.youtube.com/watch?v=Ptbk2af68e8
++ Curso em Video -> Gustavo Guanabará -> JavaScript: como chegamos até aqui? - Curso JavaScript #02 -> https://www.youtube.com/watch?v=rUTKomc2gG8
++ Curso em Video -> Gustavo Guanabará -> Dando os primeiros passos - Curso JavaScript #03 -> https://www.youtube.com/watch?v=FdePtO5JSd0
++ Curso em Video -> Gustavo Guanabará -> Criando o seu primeiro script - Curso JavaScript #04 -> https://www.youtube.com/watch?v=OmmJBfcMJA8
++ Curso em Video -> Gustavo Guanabará -> Variáveis e Tipos Primitivos - Curso JavaScript #05 ->https://www.youtube.com/watch?v=Vbabsye7mWo
++ Curso em Video -> Gustavo Guanabará -> Tratamento de dados - Curso JavaScript #06 -> https://www.youtube.com/watch?v=OJgu_KCCUSY

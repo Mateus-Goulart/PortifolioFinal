@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags Obrigatorias e Titulos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SENAC RS - RSTI </title>
+
+    <!-- Favicons -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- CSS Custumizado -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/principal_modulos.css">
+  
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d030f93cec.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"> <i class="fa-solid fa-microchip"></i> SENAC RS - RSTI </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="principal.html">Home <span class="sr-only">(Página atual)</span></a>
+            <a class="nav-item nav-link active" href="suporte.html"> Suporte </a>
+         </div>
+        
+          <div class="navbar-nav ml-auto">
+            <div class="btn btn-primary" href="#" role="button" id="dropperfil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="dropdown-toggle"><i class="fa-solid fa-user"></i> <br> Aluno </a>
+            </div>
+
+            <div class="dropdown-menu dropdown-menu-right bg-primary" aria-labelledby="dropperfil">
+              <a class="dropdown-item text-white bg-primary" href="#" data-toggle="modal" data-target="#aluno">Perfil</a>
+              <a class="dropdown-item text-white bg-primary" href="login.html">Sair</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container mt-5">
+        <div class="jumbotron bg-primary">
+          <h1 class="display-4 text-center text-white titulo_destaque">Bem-Vindo Aluno</h1>
+          <hr class="my-4 bg-warning">
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="alert alert-danger" role="alert">
+              <p>Aviso: Este aplicativo ainda está em fase experimental, por esse motivo, alguns recursos está desabilitados e alguns conteúdos podem estar faltando, não se preocupe, haveram atualizações em breve. </p>
+              <br>
+              <br>
+              <p class="text-right"><b>- Agradecemos a compreensão </b> </p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
+            <div class="card box-shadow card_lp border-card">
+              <div class="card-header bg-primary text-white text-shadow">
+                <h3> Logica de Programação </h3>
+              </div>
+              <div class="card-body video text-left ">
+                <ul>
+                  <li> Apresentação do Conceito de Algoritimo</li>
+                  <li> Apresentação do Conceito de Linguagens </li>
+                  <li> Exploração da Línguagem Python </li>
+                </ul>
+              </div>
+              <div class="card-footer text-shadow">
+                <a href="modulo1.html" class="btn btn-lg btn-primary text-white w-100"> Assistir </a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
+            <div class="card box-shadow card_ht border-card">
+              <div class="card-header bg-primary text-white text-shadow">
+                <h3> HTML 5 </h3>
+              </div>
+              <div class="card-body video text-left">
+                <ul>
+                  <li> Apresentação da Linguagem</li>
+                  <li> Exploração de Recursos da Linguagem </li>
+                  <li> Apresentação de Boas Práticas </li>
+                </ul>
+              </div>
+              <div class="card-footer text-shadow">
+                <a href="modulo2.html" class="btn btn-lg btn-primary text-white w-100"> Assistir </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
+            <div class="card card_cs border-card  box-shadow">
+              <div class="card-header bg-primary text-white text-shadow">
+                <h3> CSS 3 </h3>
+              </div>
+              <div class="card-body text-left video text-left">
+                <ul>
+                  <li> Apresentação da Linguagem</li>
+                  <li> Exploração de Recursos da Linguagem </li>
+                  <li> Apresentação de Boas Práticas </li>
+                </ul>
+              </div>
+              <div class="card-footer text-shadow">
+                <a href="modulo3.html" class="btn btn-lg btn-primary text-white w-100"> Assistir </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
+            <div class="card box-shadow card_rp border-card">
+              <div class="card-header bg-primary text-white text-shadow">
+                <h3> Responsividade </h3>
+              </div>
+              <div class="card-body video text-left">
+                <ul>
+                  <li> Aprender a criar sites responsivos </li>
+                  <li> Introdução do Framework Bootstrap</li>
+                  <li> Exploração de Recursos presentes no Framework </li>
+                </ul>
+              </div>
+              <div class="card-footer text-shadow">
+                <a href="modulo4.html" class="btn btn-lg btn-primary text-white w-100"> Assistir </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
+            <div class="card  box-shadow card_js border-card">
+              <div class="card-header bg-primary text-white text-shadow">
+                <h3> JavaScript </h3>
+              </div>
+              <div class="card-body video text-left">
+                <ul>
+                  <li> Apresentação da Linguagem</li>
+                  <li> Exploração de Recursos da Linguagem </li>
+                  <li> Apresentação de Boas Práticas </li>
+                </ul>
+              </div>
+              <div class="card-footer text-shadow">
+                <a href="modulo3.html" class="btn btn-lg btn-primary text-white w-100"> Assistir </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="aluno" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-primary text-center">
+            <h5 class="modal-title" id="TituloModalCentralizado"> Ficha de Aluno - RSTI </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body container">
+            <div class="row">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <i class="fa-solid fa-user fa-10x"></i>
+              </div>
+              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <div class="card">
+                  <div class="card-body">
+                    <p> Nome: "Aluno" </p>
+                    <hr>
+                    <p> E-mail: XXXXXXXXXXXX@gmail.com </p>
+                    <hr>
+                    <p> RG: XX.XXX.XXX-XX</p>
+                    <hr>
+                    <p> CPF: XXX.XXX.XXX-XX</p>
+                    <hr>
+                    <P> Data de Nascimento: XX/XX/XX | ( XX Anos) </P>
+                    <hr>
+                    <p> Telefone: (XX) XXXXX-XXXX </p>
+                    <hr>
+                    <p> Senha: ************* </p>
+                    <hr>
+                    <p> Trilha 1 - Desenvolvimento Front End </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer bg-destaque">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <footer class="mt-4 bg-primary text-light text-center">
+      <p> Desenvolvido por Mateus G.P. - &copy; 2022 - RSTI </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+.text-rsti {
+    color: rgb(51, 51, 247);
+}
+
+.bg-rsti {
+    background: linear-gradient( -180deg, #0066ff, #0077ff,#0077ff,#0066ff);
+}
+
+header nav {
+    border-bottom: solid 10px rgba(255, 123, 0, 0.842);
+    background: linear-gradient(-180deg, #0044ff, #0066ff, #0077ff,#0077ff,#0066ff,#0044ff);
+}
+
+.bg-gradient {
+    background: linear-gradient(-180deg, #0044ff, #0066ff, #0077ff,#0077ff,#0066ff,#0044ff);
+}
+
+.titulo_destaque {
+    color: rgba(255, 123, 0, 0.842)
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.box-shadow{
+    box-shadow: 1px 1px 3px #000000;
+}
+
+
+.transparente{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#slide {
+    height: 70%;
+}
+
+.middle-y {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav #logo {
+    width: 20%;
+    border-bottom-right-radius: 150;
+}
+
+.border-radius{
+    border-radius: 5px;
+}
+
+footer {
+    border-top: 5px rgba(255, 123, 0, 0.842) solid;
+    background: linear-gradient(-180deg, #0044ff, #0066ff, #0077ff,#0077ff,#0066ff,#0044ff);
+    color: #ffffff;
+    padding: 10px;
+}
+
+.form_back {
+    background-color: #dddddd;
+}
+
+.efeitos_caixa {
+    border: solid 10px rgba(255, 123, 0, 0.842);
+    border-radius: 12px;
+}
+
+.border-card {
+    border: 1px solid #0066ff
+}
+
+.bg-destaque {
+    background-color: #ff7b00d7;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#back {
+    background: linear-gradient(#ff7b00d7,#0044ff, #0066ff, #0077ff,#0077ff,#0066ff,#0044ff,#ff7b00d7);
+}
+
+.bg-silver {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.aula { 
+    height: 185px;
+}
+
+.video {
+    height: 300px;
+}
+
+.bg-destaque {
+    background-color: rgba(255, 123, 0, 0.842)
+}

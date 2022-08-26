@@ -1,0 +1,151 @@
+@media (max-width: 767px) {
+    
+    .card_ht{
+        border: 2px solid rgba(255, 123, 0, 0.842) !important;
+    }
+
+    .card_ht .card-header {
+        background-color: rgba(255, 123, 0, 0.842) !important;
+    }
+
+    .card_ht .btn {
+        border: 2px solid rgba(255, 123, 0, 0.842) !important;
+        background-color: rgba(255, 123, 0, 0.842) !important;
+    }
+
+    .card_cs {
+        border: 2px solid rgba(0, 132, 255, 0.849) !important;
+    }
+
+
+    .card_cs .card-header {
+        background-color: rgba(0, 132, 255, 0.849) !important;
+    }
+
+    .card_cs .btn {
+        background-color: rgba(0, 132, 255, 0.849) !important;
+        border: 2px solid rgba(0, 132, 255, 0.849) !important;
+    }
+
+    .card_lp {
+        border: 2px solid rgba(1, 119, 1, 0.801) !important;
+    }
+
+
+    .card_lp .card-header {
+    background-color: rgba(1, 119, 1, 0.801) !important;
+    }
+
+    .card_lp .btn {
+    background-color: rgba(1, 119, 1, 0.801) !important;
+    border: 2px solid rgba(1, 119, 1, 0.801) !important;
+    }
+
+    .card_rp {
+        border: 2px solid rgb(199, 0, 199) !important;
+    }
+
+
+    .card_rp .card-header {
+        background-color: rgb(199, 0, 199) !important;
+    }
+
+    .card_rp .btn {
+        background-color: rgb(199, 0, 199) !important;
+        border: 2px solid rgb(199, 0, 199) !important;
+    }
+
+    .card_js {
+        border: 2px solid rgba(252, 252, 7, 0.87) !important;
+    }
+
+
+    .card_js .card-header {
+        background-color: rgba(252, 252, 7, 0.87) !important;
+    }
+
+    .card_js .btn {
+        background-color: rgba(252, 252, 7, 0.87) !important;
+        border: 2px solid rgba(252, 252, 7, 0.87) !important;
+    }
+}
+
+
+
+@media(min-width: 768px){
+
+    .card_ht:hover {
+        border: 2px solid rgba(255, 123, 0, 0.842) !important;
+    }
+
+
+    .card_ht:hover .card-header {
+        background-color: rgba(255, 123, 0, 0.842) !important;
+    }
+
+    .card_ht:hover .btn {
+        border: 2px solid rgba(255, 123, 0, 0.842) !important;
+        background-color: rgba(255, 123, 0, 0.842) !important;
+    }
+
+    .card_cs:hover {
+        border: 2px solid rgba(0, 132, 255, 0.849) !important;
+    }
+
+
+    .card_cs:hover .card-header {
+        background-color: rgba(0, 132, 255, 0.849) !important;
+    }
+
+    .card_cs:hover .btn {
+        background-color: rgba(0, 132, 255, 0.849) !important;
+        border: 2px solid rgba(0, 132, 255, 0.849) !important;
+    }
+
+    .card_lp:hover {
+        border: 2px solid rgba(1, 119, 1, 0.801) !important;
+    }
+
+
+    .card_lp:hover .card-header {
+    background-color: rgba(1, 119, 1, 0.801) !important;
+    }
+
+    .card_lp:hover .btn {
+    background-color: rgba(1, 119, 1, 0.801) !important;
+    border: 2px solid rgba(1, 119, 1, 0.801) !important;
+    }
+
+    .card_rp:hover {
+        border: 2px solid rgb(199, 0, 199) !important;
+    }
+
+
+    .card_rp:hover .card-header {
+        background-color: rgb(199, 0, 199) !important;
+    }
+
+    .card_rp:hover .btn {
+        background-color: rgb(199, 0, 199) !important;
+        border: 2px solid rgb(199, 0, 199) !important;
+    }
+
+    .card_js:hover {
+        border: 2px solid rgba(252, 252, 7, 0.87) !important;
+    }
+
+
+    .card_js:hover .card-header {
+        background-color: rgba(252, 252, 7, 0.87) !important;
+    }
+
+    .card_js:hover .btn {
+        background-color: rgba(252, 252, 7, 0.87) !important;
+        border: 2px solid rgba(252, 252, 7, 0.87) !important;
+    }
+
+}
+
+
+
+
